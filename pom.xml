@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.ibn</groupId>
+    <artifactId>spring-framework-learn</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>spring-framework-xml</module>
+        <module>spring-framework-api</module>
+    </modules>
+    <!--    所有项目公用组件-->
+    <dependencies>
+        <!-- 工具:lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+        </dependency>
+        <!-- 测试:junit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+    <!--    统一控制组件的版本-->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-context</artifactId>
+                <version>5.2.6.RELEASE</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
+</project>

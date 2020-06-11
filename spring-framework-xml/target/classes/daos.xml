@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="userBaseDao" name="userBaseDao1,userBaseDao2;userBaseDao3 userBaseDao4"
+          class="com.ibn.dao.UserBaseDao">
+    </bean>
+    <bean class="com.ibn.dao.MemberBaseDao"></bean>
+
+</beans>
