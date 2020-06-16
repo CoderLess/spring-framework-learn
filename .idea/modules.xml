@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-framework-annotation/spring-framework-annotation.iml" filepath="$PROJECT_DIR$/spring-framework-annotation/spring-framework-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-framework-api/spring-framework-api.iml" filepath="$PROJECT_DIR$/spring-framework-api/spring-framework-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-framework-learn.iml" filepath="$PROJECT_DIR$/.idea/spring-framework-learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-framework-xml/spring-framework-xml.iml" filepath="$PROJECT_DIR$/spring-framework-xml/spring-framework-xml.iml" />

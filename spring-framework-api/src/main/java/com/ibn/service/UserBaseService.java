@@ -17,4 +17,10 @@ public interface UserBaseService {
      * @createTime：2020/6/2 8:24
      */
     int save(UserBaseDTO userBaseDTO);
+    /**
+     * @description: 更新用户信息
+     * @author：RenBin
+     * @createTime：2020/6/12 17:34
+     */
+    int update(UserBaseDTO userBaseDTO);
 }

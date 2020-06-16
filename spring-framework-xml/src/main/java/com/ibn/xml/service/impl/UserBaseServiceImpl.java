@@ -1,6 +1,6 @@
-package com.ibn.service.impl;
+package com.ibn.xml.service.impl;
 
-import com.ibn.dao.UserBaseDao;
+import com.ibn.xml.dao.UserBaseDao;
 import com.ibn.domain.UserBaseDTO;
 import com.ibn.entity.UserBaseDO;
 import com.ibn.service.UserBaseService;
@@ -28,6 +28,11 @@ public class UserBaseServiceImpl implements UserBaseService {
         UserBaseDO userBaseDO = new UserBaseDO();
         BeanUtils.copyProperties(userBaseDTO, userBaseDO);
         userBaseDao.save(userBaseDO);
+        return 0;
+    }
+
+    @Override
+    public int update(UserBaseDTO userBaseDTO) {
         return 0;
     }
 }

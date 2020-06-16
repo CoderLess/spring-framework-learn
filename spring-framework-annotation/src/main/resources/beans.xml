@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!--    使用<context:component-scan>隐式启用的功能 <context:annotation-config>。<context:annotation-config>使用时，通常无需包含 元素<context:component-scan>。-->
+    <context:annotation-config/>
+
+    <bean id="userBaseDao" class="com.ibn.annotation.dao.UserBaseDao">
+    </bean>
+
+    <bean id="userBaseService" class="com.ibn.annotation.service.impl.UserBaseServiceImpl">
+    </bean>
+
+    <bean id="userBaseDO" class="com.ibn.entity.UserBaseDO">
+        <property name="id" value="1"></property>
+        <property name="username" value="zhangsan"></property>
+        <property name="password" value="123"></property>
+    </bean>
+
+    <bean id="userBaseDO1" class="com.ibn.entity.UserBaseDO" primary="true">
+        <property name="id" value="2"></property>
+        <property name="username" value="lisi"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+
+
+    <bean id="userBaseDTO" class="com.ibn.domain.UserBaseDTO">
+        <property name="id" value="1"></property>
+        <property name="username" value="zhangsanDto"></property>
+        <property name="password" value="123"></property>
+    </bean>
+    <bean id="userBaseDTO1" class="com.ibn.domain.UserBaseDTO">
+        <qualifier value="main"/>
+        <property name="id" value="2"></property>
+        <property name="username" value="lisiDto"></property>
+        <property name="password" value="123456"></property>
+    </bean>
+
+    <bean class="com.ibn.annotation.config.MyConfiguration">
+    </bean>
+
+</beans>

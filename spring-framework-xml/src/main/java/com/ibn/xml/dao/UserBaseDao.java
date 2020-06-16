@@ -1,4 +1,4 @@
-package com.ibn.dao;
+package com.ibn.xml.dao;
 
 import com.ibn.entity.UserBaseDO;
 

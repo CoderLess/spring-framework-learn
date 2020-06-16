@@ -8,4 +8,10 @@
         <property name="userBaseDao" ref="userBaseDao"/>
     </bean>
 
+    <bean id="memberBaseService" class="com.ibn.service.impl.MemberBaseServiceImpl">
+        <constructor-arg name="memberBaseDao" ref="memberBaseDao"></constructor-arg>
+    </bean>
+
+    <bean id="timeService" class="com.ibn.service.impl.TimeServiceImpl" scope="prototype">
+    </bean>
 </beans>

@@ -11,6 +11,7 @@
     <modules>
         <module>spring-framework-xml</module>
         <module>spring-framework-api</module>
+        <module>spring-framework-annotation</module>
     </modules>
     <!--    所有项目公用组件-->
     <dependencies>

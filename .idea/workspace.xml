@@ -2,16 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d420d93-1461-473b-b4d0-2b1d57b758e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/domain/MemberBaseDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/MemberBaseDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/MemberBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/UserBaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/resources/daos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/spring-framework-annotation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/config/MyConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/dao/UserBaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/service/impl/UserBaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/main/resources/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-annotation/src/test/java/com/ibn/annotation/service/impl/UserBaseServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/MemberBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/TimeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/ao/AbstractUserBaseAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/custom/MyFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/service/impl/MemberBaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/service/impl/TimeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/vo/UserBaseVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/resources/aos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/resources/customers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/spring-framework-learn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/spring-framework-learn.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-api/spring-framework-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-api/spring-framework-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/domain/UserBaseDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/domain/UserBaseDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/UserBaseDO.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/UserBaseDO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/UserBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/UserBaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-api/target/classes/com/ibn/domain/UserBaseDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-api/target/classes/com/ibn/domain/UserBaseDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-api/target/classes/com/ibn/entity/UserBaseDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-api/target/classes/com/ibn/entity/UserBaseDO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-api/target/classes/com/ibn/service/UserBaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-api/target/classes/com/ibn/service/UserBaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/spring-framework-xml.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/spring-framework-xml.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/MemberBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/dao/MemberBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/UserBaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/dao/UserBaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/service/impl/UserBaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/service/impl/UserBaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/src/main/resources/daos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/resources/daos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/src/main/resources/services.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/src/main/resources/services.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/src/test/java/com/ibn/service/impl/UserBaseServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/src/test/java/com/ibn/xml/service/impl/UserBaseServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/target/classes/daos.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/target/classes/daos.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/target/classes/services.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/target/classes/services.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-framework-xml/target/test-classes/com/ibn/service/impl/UserBaseServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-framework-xml/target/test-classes/com/ibn/service/impl/UserBaseServiceImplTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-framework-xml/target/" />
     <ignored path="$PROJECT_DIR$/spring-framework-api/target/" />
+    <ignored path="$PROJECT_DIR$/spring-framework-annotation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,32 +64,11 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/test/java/com/ibn/service/impl/UserBaseServiceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-framework-xml/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-65">
-                <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
+              <first_editor relative-caret-position="341">
+                <caret line="183" column="45" lean-forward="true" selection-start-line="183" selection-start-column="45" selection-end-line="183" selection-end-column="45" />
               </first_editor>
               <second_editor />
             </state>
@@ -60,75 +76,86 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/resources/daos.xml">
+        <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/resources/services.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="378">
+              <caret line="14" column="25" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/MemberBaseDao.java">
+        <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/config/MyConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-              <folding>
-                <element signature="e#250#251#0" expanded="true" />
-                <element signature="e#307#308#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/service/impl/UserBaseServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="207">
+              <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#582#600#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/domain/UserBaseDTO.java">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/sql/DataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="306">
+              <caret line="76" column="57" lean-forward="true" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/UserBaseDao.java">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/Wrapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="5" />
-              <folding>
-                <element signature="e#279#280#0" expanded="true" />
-                <element signature="e#336#337#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-383">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/MemberBaseDO.java">
+        <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/sql/CommonDataSource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="621">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="-1800">
+              <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/domain/MemberBaseDTO.java">
+        <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+            <state>
+              <caret column="13" selection-start-column="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/test/java/com/ibn/annotation/service/impl/UserBaseServiceImplTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/UserBaseService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/resources/beans.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -138,6 +165,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -158,13 +187,34 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/UserBaseDao.java" />
         <option value="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/service/impl/UserBaseServiceImpl.java" />
-        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/resources/services.xml" />
         <option value="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/MemberBaseDO.java" />
         <option value="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/domain/MemberBaseDTO.java" />
         <option value="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/MemberBaseDao.java" />
+        <option value="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/MemberBaseService.java" />
         <option value="$PROJECT_DIR$/spring-framework-xml/src/main/resources/daos.xml" />
+        <option value="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/UserBaseDO.java" />
+        <option value="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/domain/UserBaseDTO.java" />
+        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/vo/UserBaseVO.java" />
+        <option value="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/TimeService.java" />
+        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/resources/aos.xml" />
+        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/resources/services.xml" />
+        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/ao/AbstractUserBaseAO.java" />
+        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/service/impl/TimeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/service/impl/MemberBaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/custom/MyFactoryBean.java" />
+        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/resources/customers.xml" />
         <option value="$PROJECT_DIR$/spring-framework-xml/src/test/java/com/ibn/service/impl/UserBaseServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/UserBaseDao.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/UserBaseService.java" />
+        <option value="$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/service/impl/UserBaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/dao/UserBaseDao.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/service/impl/UserBaseServiceImpl.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/test/java/com/ibn/annotation/service/impl/UserBaseServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/config/MyConfiguration.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/spring-framework-annotation/src/main/resources/beans.xml" />
       </list>
     </option>
   </component>
@@ -175,37 +225,18 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-        <option value="$PROJECT_DIR$/.idea/spring-framework-learn.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/spring-framework-xml/spring-framework-xml.iml" />
-        <option value="$PROJECT_DIR$/spring-framework-api/spring-framework-api.iml" />
-        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_12.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_6_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_6_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_6_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_2_6_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_6_RELEASE.xml" />
-        <option value="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_6_RELEASE.xml" />
-      </list>
-    </option>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -219,131 +250,28 @@
             <path>
               <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-api" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-framework-annotation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-api" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-framework-annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-framework-annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-framework-annotation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-framework-learn" type="462c0819:PsiDirectoryNode" />
-              <item name="spring-framework-xml" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-framework-learn" type="b2602c69:ProjectViewProjectNode" />
@@ -358,8 +286,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -370,7 +301,14 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ibn.annotation.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.ibn.domain" />
     </key>
   </component>
@@ -386,8 +324,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UserBaseServiceImplTest.printBeanName">
-    <configuration name="UserBaseServiceImplTest.beanNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserBaseServiceImplTest.testValue">
+    <configuration name="UserBaseServiceImplTest.beanFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring-framework-xml" />
       <extension name="coverage">
         <pattern>
@@ -397,55 +335,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ibn.service.impl" />
       <option name="MAIN_CLASS_NAME" value="com.ibn.service.impl.UserBaseServiceImplTest" />
-      <option name="METHOD_NAME" value="beanNameTest" />
+      <option name="METHOD_NAME" value="beanFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserBaseServiceImplTest.createBean" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-framework-xml" />
+    <configuration name="UserBaseServiceImplTest.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-framework-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibn.service.impl.*" />
+          <option name="PATTERN" value="com.ibn.annotation.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ibn.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.ibn.service.impl.UserBaseServiceImplTest" />
-      <option name="METHOD_NAME" value="createBean" />
+      <option name="PACKAGE_NAME" value="com.ibn.annotation.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ibn.annotation.service.impl.UserBaseServiceImplTest" />
+      <option name="METHOD_NAME" value="print" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserBaseServiceImplTest.printBeanName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-framework-xml" />
+    <configuration name="UserBaseServiceImplTest.printDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-framework-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibn.service.impl.*" />
+          <option name="PATTERN" value="com.ibn.annotation.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ibn.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.ibn.service.impl.UserBaseServiceImplTest" />
-      <option name="METHOD_NAME" value="printBeanName" />
+      <option name="PACKAGE_NAME" value="com.ibn.annotation.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ibn.annotation.service.impl.UserBaseServiceImplTest" />
+      <option name="METHOD_NAME" value="printDTO" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="UserBaseServiceImplTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-framework-xml" />
+      <module name="spring-framework-annotation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ibn.service.impl.*" />
+          <option name="PATTERN" value="com.ibn.annotation.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ibn.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="com.ibn.service.impl.UserBaseServiceImplTest" />
+      <option name="PACKAGE_NAME" value="com.ibn.annotation.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ibn.annotation.service.impl.UserBaseServiceImplTest" />
       <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserBaseServiceImplTest.testValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-framework-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ibn.annotation.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ibn.annotation.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.ibn.annotation.service.impl.UserBaseServiceImplTest" />
+      <option name="METHOD_NAME" value="testValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -453,10 +407,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserBaseServiceImplTest.printBeanName" />
-        <item itemvalue="JUnit.UserBaseServiceImplTest.beanNameTest" />
-        <item itemvalue="JUnit.UserBaseServiceImplTest.createBean" />
+        <item itemvalue="JUnit.UserBaseServiceImplTest.testValue" />
+        <item itemvalue="JUnit.UserBaseServiceImplTest.printDTO" />
+        <item itemvalue="JUnit.UserBaseServiceImplTest.print" />
         <item itemvalue="JUnit.UserBaseServiceImplTest.save" />
+        <item itemvalue="JUnit.UserBaseServiceImplTest.beanFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -475,57 +430,61 @@
       <updated>1591774014559</updated>
       <workItem from="1591774015874" duration="4508000" />
       <workItem from="1591833517306" duration="6935000" />
-      <workItem from="1591843964082" duration="14168000" />
+      <workItem from="1591843964082" duration="14237000" />
+      <workItem from="1591920186092" duration="26642000" />
+      <workItem from="1592180654618" duration="3427000" />
+      <workItem from="1592296992051" duration="1710000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserBaseServiceImplTest_createBean - 2020.06.11 at 11h 34m 14s.xml">
-      <configuration name="UserBaseServiceImplTest.createBean" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_print - 2020.06.15 at 08h 33m 23s.xml">
+      <configuration name="UserBaseServiceImplTest.print" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserBaseServiceImplTest_createBean - 2020.06.11 at 11h 34m 53s.xml">
-      <configuration name="UserBaseServiceImplTest.createBean" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_printDTO - 2020.06.15 at 08h 41m 50s.xml">
+      <configuration name="UserBaseServiceImplTest.printDTO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserBaseServiceImplTest_createBean - 2020.06.11 at 11h 35m 29s.xml">
-      <configuration name="UserBaseServiceImplTest.createBean" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_printDTO - 2020.06.15 at 08h 43m 06s.xml">
+      <configuration name="UserBaseServiceImplTest.printDTO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserBaseServiceImplTest_createBean - 2020.06.11 at 11h 39m 13s.xml">
-      <configuration name="UserBaseServiceImplTest.createBean" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_printDTO - 2020.06.15 at 08h 43m 30s.xml">
+      <configuration name="UserBaseServiceImplTest.printDTO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserBaseServiceImplTest_beanNameTest - 2020.06.11 at 11h 50m 41s.xml">
-      <configuration name="UserBaseServiceImplTest.beanNameTest" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_printDTO - 2020.06.15 at 08h 45m 13s.xml">
+      <configuration name="UserBaseServiceImplTest.printDTO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserBaseServiceImplTest_beanNameTest - 2020.06.11 at 11h 51m 41s.xml">
-      <configuration name="UserBaseServiceImplTest.beanNameTest" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_printDTO - 2020.06.15 at 08h 45m 54s.xml">
+      <configuration name="UserBaseServiceImplTest.printDTO" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserBaseServiceImplTest_beanNameTest - 2020.06.11 at 11h 53m 04s.xml">
-      <configuration name="UserBaseServiceImplTest.beanNameTest" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_testValue - 2020.06.16 at 16h 58m 37s.xml">
+      <configuration name="UserBaseServiceImplTest.testValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserBaseServiceImplTest_beanNameTest - 2020.06.11 at 11h 53m 44s.xml">
-      <configuration name="UserBaseServiceImplTest.beanNameTest" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_testValue - 2020.06.16 at 16h 59m 07s.xml">
+      <configuration name="UserBaseServiceImplTest.testValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserBaseServiceImplTest_beanNameTest - 2020.06.11 at 11h 54m 10s.xml">
-      <configuration name="UserBaseServiceImplTest.beanNameTest" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_testValue - 2020.06.16 at 16h 59m 45s.xml">
+      <configuration name="UserBaseServiceImplTest.testValue" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserBaseServiceImplTest_printBeanName - 2020.06.11 at 13h 52m 06s.xml">
-      <configuration name="UserBaseServiceImplTest.printBeanName" configurationId="JUnit" />
+    <history-entry file="UserBaseServiceImplTest_testValue - 2020.06.16 at 17h 00m 07s.xml">
+      <configuration name="UserBaseServiceImplTest.testValue" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25611000" />
+    <option name="totallyTimeSpent" value="57459000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.2553305" />
-      <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.70577615" visible="true" weight="0.25906184" />
+      <window_info id="Structure" order="1" sideWeight="0.29422382" side_tool="true" visible="true" weight="0.25906184" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.5024233" side_tool="true" weight="0.2553305" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32719395" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34994584" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -535,7 +494,7 @@
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -549,193 +508,7 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/spring-framework-xml/src/test/java/com/ibn/service/impl/UserBaseServiceImplTest.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-framework-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/UserBaseDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/UserBaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar!/org/springframework/core/env/EnvironmentCapable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1107">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/resources/services.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar!/org/springframework/beans/factory/ListableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="13" column="51" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar!/org/springframework/beans/factory/BeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar!/org/springframework/core/io/ResourceLoader.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanDefinitionReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="143" column="11" selection-start-line="143" selection-start-column="11" selection-end-line="143" selection-end-column="11" />
-          <folding>
-            <element signature="e#5485#5486#0" expanded="true" />
-            <element signature="e#5507#5508#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/SingletonBeanRegistry.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="34" column="17" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/HierarchicalBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/ListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1026">
-          <caret line="57" column="48" selection-start-line="57" selection-start-column="48" selection-end-line="57" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/xml/XmlBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="65" column="11" selection-start-line="65" selection-start-column="11" selection-end-line="65" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.springframework.context.ApplicationContext">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.springframework.context.ApplicationContext</OriginalElement>
-          <nodes>
-            <node x="" y="">org.springframework.beans.factory.HierarchicalBeanFactory</node>
-            <node x="" y="">java.lang.FunctionalInterface</node>
-            <node x="" y="">org.springframework.core.io.ResourceLoader</node>
-            <node x="" y="">org.springframework.core.env.EnvironmentCapable</node>
-            <node x="" y="">org.springframework.beans.factory.BeanFactory</node>
-            <node x="" y="">org.springframework.context.ApplicationEventPublisher</node>
-            <node x="" y="">org.springframework.core.io.support.ResourcePatternResolver</node>
-            <node x="" y="">org.springframework.context.ApplicationContext</node>
-            <node x="" y="">org.springframework.context.MessageSource</node>
-            <node x="" y="">org.springframework.beans.factory.ListableBeanFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.7559523809523809" x="914.0" y="110.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="50" column="83" selection-start-line="50" selection-start-column="83" selection-end-line="50" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/ConfigurableListableBeanFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="42" column="73" selection-start-line="42" selection-start-column="73" selection-end-line="42" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JIGSAW/spring.beans">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JIGSAW</ID>
-          <OriginalElement>spring.beans</OriginalElement>
-          <nodes>
-            <node x="" y="">spring.beans</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="87.0" y="18.5" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/BeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6586">
@@ -893,7 +666,7 @@
               <point x="0.0" y="18.5" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="0.8131548311990687" x="313.1467430207588" y="194.14674302075878" />
+          <settings layout="Hierarchic Group" zoom="0.8131548311990687" x="313.0" y="194.0" />
           <SelectedNodes>
             <node>org.springframework.beans.factory.support.DefaultListableBeanFactory</node>
           </SelectedNodes>
@@ -958,24 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/domain/UserBaseDTO.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/dao/MemberBaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-xml/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/MemberBaseDO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="81">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -986,9 +745,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/UserBaseDao.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/dao/UserBaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
+        <state relative-caret-position="351">
           <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="5" />
           <folding>
             <element signature="e#279#280#0" expanded="true" />
@@ -997,40 +756,278 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/dao/MemberBaseDao.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/MemberBaseService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="324">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/service/impl/UserBaseServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/ao/UserBaseAO.java" />
+    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/MemberBaseDO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="21" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="541">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/entity/UserBaseDO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/domain/UserBaseDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="517">
+          <caret line="37" column="28" selection-start-line="37" selection-start-column="28" selection-end-line="37" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/resources/daos.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state>
+          <caret selection-end-line="11" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/test/java/com/ibn/service/impl/UserBaseServiceImplTest.java">
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/ao/AbstractUserBaseAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="86" column="7" selection-start-line="86" selection-start-column="7" selection-end-line="86" selection-end-column="7" />
+        <state relative-caret-position="139">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/BeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/vo/UserBaseVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="963" column="16" selection-start-line="963" selection-start-column="16" selection-end-line="963" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.6.RELEASE/spring-context-5.2.6.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="528" column="16" selection-start-line="528" selection-start-column="16" selection-end-line="528" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/TimeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/service/impl/TimeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#1049#1050#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+            <element signature="e#1159#1160#0" expanded="true" />
+            <element signature="e#1187#1188#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/config/AutowireCapableBeanFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="138" column="10" selection-start-line="138" selection-start-column="10" selection-end-line="138" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/service/impl/MemberBaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/custom/MyFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/resources/aos.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/resources/customers.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1107">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/test/java/com/ibn/xml/service/impl/UserBaseServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="21" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="22" column="21" selection-start-line="19" selection-start-column="8" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotaion/dao.java" />
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotaion/dao/User.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/5.2.6.RELEASE/spring-beans-5.2.6.RELEASE-sources.jar!/org/springframework/beans/factory/annotation/Required.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="28" column="21" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/service/impl/UserBaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="837">
+          <caret line="37" column="35" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.6.RELEASE/spring-core-5.2.6.RELEASE.jar!/org/springframework/lang/Nullable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/java/com/ibn/xml/service/impl/UserBaseServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="19" column="7" selection-start-line="19" selection-start-column="7" selection-end-line="19" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/dao/UserBaseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="30" column="23" selection-start-line="30" selection-start-column="23" selection-end-line="30" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-api/src/main/java/com/ibn/service/UserBaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/sql/CommonDataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1800">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/java/sql/Wrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-383">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_201/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="76" column="57" lean-forward="true" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/test/java/com/ibn/annotation/service/impl/UserBaseServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="39" column="65" selection-start-line="39" selection-start-column="65" selection-end-line="39" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/java/com/ibn/annotation/config/MyConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#582#600#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1038,10 +1035,24 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-65">
-            <caret line="127" column="25" selection-start-line="127" selection-start-column="25" selection-end-line="127" selection-end-column="25" />
+          <first_editor relative-caret-position="341">
+            <caret line="183" column="45" lean-forward="true" selection-start-line="183" selection-start-column="45" selection-end-line="183" selection-end-column="45" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-xml/src/main/resources/services.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-framework-annotation/src/main/resources/beans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>

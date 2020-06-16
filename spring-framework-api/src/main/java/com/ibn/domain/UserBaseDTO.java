@@ -30,4 +30,10 @@ public class UserBaseDTO {
      * @createTime：2020/6/2 8:23
      */
     private String password;
+    /**
+     * @description: 创建时间
+     * @author：RenBin
+     * @createTime：2020/6/12 9:31
+     */
+    private Long createTime;
 }
